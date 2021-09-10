@@ -1,5 +1,28 @@
 ## S09: Deployments at Scale
 
+#### Summary
+
+- Cloud Formation
+  - Infrastructure as Code, works with most AWS resources
+  - Repeat across Regions + Accounts
+- Beanstalk
+  - Platform as a Service (limited to certain languages)
+  - Deploy code consistenly with known architecture
+- CodeDeploy (hybrid): deploy & upgrade any application onto servers
+- Systems Manager (hybrid): patch, configure and run commands at scale
+- OpsWorks (hybrid): managed Chef and Puppet in AWS
+
+
+
+- CodeCommit: Store code in private git repository (version controlled)
+- CodeBuild: Build & test code in AWS
+- CodeDeploy: Deploy code onto servers
+- CodePipeline: Orchestration of pipeline (from code to build to deploy)
+- CodeArtifact: Store software packages / dependencies on AWS
+- CodeStar: Unified view for allowing developers to do CI/CD and code
+- Cloud9: Cloud IDE with colab
+- AWS CDK: Define cloud infrastructure with programming language
+
 #### CloudFormation
 
 - Declarative way of outlining your AWS Infrastructure, for any resources (most are supported)
@@ -129,6 +152,35 @@ CodeCommit -> CodeBuild -> CodeDeploy -> Elastic Beanstalk
 - Cloud IDE for writing, running, and debugging code
 - Cloud IDE can be used within a web browser meaning you can work on projects from anywhere
 - Code collaboration in real-time
+
+
+
+#### AWS Systems Manager (SSM)
+
+- Helps manage EC2 and On-Premises systems 
+- Hybrid AWS Service
+- Get operational insights about state of infrastructure
+- Suite of 10+ products
+- Features
+  - Patching automation for enhanced compliance
+  - Run commands across entire fleet of servers
+  - Store parameter configuration with SSM Parameter Store
+- Windows + Linux OS
+- Need to install SSM agent onto systems
+- Can run commands, patch and configure servers
+
+
+
+#### AWS OpsWorks
+
+- Chef & Puppet (Non-AWS) help perform server configuration automatically, or repetitive actions
+- Work great with EC2 & On-Premises VM
+- AWS OpsWorks = Managed Chef & Puppet
+- Alternative to AWS SSM
+- Only provision **standard AWS resources**
+  - EC2 instances, databases, load balancers
+
+
 
 
 
