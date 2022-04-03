@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "76127d79d601c015",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce6b5fe08d98864d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "S01_Cloud.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "12ec2588bca7245e",
+    "type": "split",
+    "children": [
+      {
+        "id": "715201e275097c02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6eb4edd759d1aae3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4281fb4446b13e38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6162cfe85d40845",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ba147b16b3d98d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2165e2eb8393393d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "S01_Cloud.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ce6b5fe08d98864d",
+  "lastOpenFiles": [
+    "S01_Cloud.md",
+    "S02_IAM.md"
+  ]
+}

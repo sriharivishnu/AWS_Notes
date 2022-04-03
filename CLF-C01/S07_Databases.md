@@ -71,7 +71,7 @@ Shared Responsiblity
     - Maintenance windows for upgrades
     - Scaling capability (vertical and horizontal)
     - Storage backed by EBS (gp2 or io1)
-- Cannot SSH into instance
+- BUT Cannot SSH into instance
 
 
 
@@ -128,7 +128,7 @@ Amazon Aurora
 - NoSQL database - not a relational database
 - Scales to massive workloads, distributed "serverless" database
 - Millions of requests per seconds, trillions of rows, 100s of TB of storage
-- Fast and consisten in performance
+- Fast and consistent in performance
 - Single-digit millisecond latency - low latency retrieval
 - Integrated with IAM for security, authorization, and administration
 - Low cost and auto scaling capabilities
@@ -144,9 +144,8 @@ Key-value database
 
   - Schema defined per item
 
-  ![Screen Shot 2021-09-05 at 10.58.22 PM](/Users/sriharivishnu/Library/Application Support/typora-user-images/Screen Shot 2021-09-05 at 10.58.22 PM.png)
 
-
+![Screen Shot 2022-04-01 at 2.10.26 AM](/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S07_Databases-images/Screen Shot 2022-04-01 at 2.10.26 AM.png)
 
 DynamoDB Accelerator - DAX
 
@@ -159,7 +158,7 @@ DynamoDB Accelerator - DAX
 
 #### Redshift
 
-- Based on PostgreSQL, but not used for OLTP
+- Based on PostgreSQL, but not used for OLTP (Online Transaction Processing)
 - It's OLAP - online analytical processing (analytics and data warehousing)
 - Load data once every hour, not every second
 - 10x better performance than other data warehouses, scale to PBs of data
@@ -171,10 +170,9 @@ DynamoDB Accelerator - DAX
 
 
 
-#### Amazon EMR
+#### Amazon EMR (Elastic MapReduce)
 
-- Elastic MapReduce
-- EMR helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data
+- EMR helps creating *Hadoop* clusters (Big Data) to analyze and process vast amount of data
 - The clusters can be made of hundreds of EC2 instances
 - Supports Apache Spark, HBase, Presto
 - EMR takes care of all provisioning and configuration
@@ -185,12 +183,14 @@ DynamoDB Accelerator - DAX
 
 #### Amazon Athena
 
-- Fully Serverless database with SQL capabilities
-- Used to query data in S3
-- Pay per query
-- Output results back to S3
+- Fully Serverless database with SQL capabilities to perform analytics against S3 objects
+- Used to query data in S3 - Supports CSV, JSON, ORC, Avro, and Parquet (built on Presto)
+- $5.00 per TB of data
+- Can output results back to S3
 - Secured through IAM
 - Use Case: on-time SQL queries, serverless queries on S3, log analytics
+  - Exam: Analyze data in S3 using serverless SQL
+
 
 
 
@@ -211,8 +211,9 @@ DynamoDB Accelerator - DAX
 - AWS-implementation of MongoDB (NoSQL)
 - Used to store, query and index JSON data
 - Similar deployment concepts as Aurora
-- Fully Managed, highly available with replication across 3 AZ
-- Like Aurora, storage automatically grows in increments of 10GB, up to 64 TB
+  - Fully Managed, highly available with replication across 3 AZ
+  - Like Aurora, storage automatically grows in increments of 10GB, up to 64 TB
+
 - Automatically scales to workloads with millions of requests per second
 
 
@@ -221,13 +222,13 @@ DynamoDB Accelerator - DAX
 
 - Fully managed graph database
   - e.g. social network
-    - Users ahve friends
+    - Users have friends
     - Posts have comments
     - Comments have likes from users
     - Users share and like posts
 - Highly available across 3 AZ, with up to 15 read replicas
 - Build and run applications working with highly connected datasets = optimized for complex and hard queries
-- Store up to billions of relations and query the graph will millisecond latency
+- Store up to billions of relations and query the graph with millisecond latency
 - Great for knowledge graphs (Wikipedia), fraud detection, recommendation engines, social networking
 
 

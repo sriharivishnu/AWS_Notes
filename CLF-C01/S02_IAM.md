@@ -8,7 +8,7 @@
 - Roles: for EC2 instances or AWS services
 - Security: MFA + Password policy
 - AWS CLI: manage your AWS services using the command-line
-- AWS SDK: manage you AWS services using a programming language
+- AWS SDK: manage your AWS services using a programming language
 - Access Keys: access AWS using the CLI or SDK
 - Audit: IAM Credential Reports & IAM Access Advisor
 
@@ -26,7 +26,9 @@
 
 
 
-- Users or groups can be assigned JSON documents called policies![Screen Shot 2021-09-02 at 1.12.22 AM](/Users/sriharivishnu/Library/Application Support/typora-user-images/Screen Shot 2021-09-02 at 1.12.22 AM.png)
+- Users or groups can be assigned JSON documents called policies
+
+<img src="/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S02_IAM-images/Screen Shot 2022-03-31 at 1.34.36 AM.png" alt="Screen Shot 2022-03-31 at 1.34.36 AM" style="zoom:30%;" />
 
 - Policies define the permissions of the users
 - Don't give more permissions than a user needs (least privilege principle)
@@ -36,7 +38,7 @@
 - All users inherit policies from group(s) they belong to
 - Users without groups can have policies called **inline policies**
 
-
+![Screen Shot 2022-03-31 at 1.33.11 AM](/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S02_IAM-images/Screen Shot 2022-03-31 at 1.33.11 AM.png)
 
 Policies Structure
 

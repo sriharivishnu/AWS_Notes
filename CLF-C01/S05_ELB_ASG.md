@@ -37,7 +37,7 @@
 - Servers that forward internet traffic to multiple servers downstream
 - Advantages
   - Spread load across multiple instances
-  - Sing point of access to application
+  - Single point of access to application
   - Handle failures of downstream instances
   - Regular health checks
   - SSL termination

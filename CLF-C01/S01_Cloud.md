@@ -97,9 +97,9 @@ Hybrid Cloud
    - Pay On-Demand (don't own hardware)
    - Reduced Total Cost of Ownership (TCO) & Operational Expense
 2. Benefit from massive economies of scale
-   - Prices are reduces as AWS is more efficent due to large scale
+   - Prices are reduced as AWS is more efficent due to large scale
 3. Stop guessing capacity
-   - Scale absed on actual usage
+   - Scale based on actual usage
 4. Increase speed and agiility
 5. Stop spending money running and maintaining data centers
 6. Go global in minutes
@@ -131,11 +131,9 @@ Hybrid Cloud
   - e.g Elastic Beanstalk
 - Software as a Service (SaaS)
   - Completed product that is run and managed by the service provider
-  - Many AWS services (e.g machine learning)
+  - Many AWS services (e.g Rekognition machine learning)
 
-![Screen Shot 2021-09-02 at 12.47.34 AM](/Users/sriharivishnu/Library/Application Support/typora-user-images/Screen Shot 2021-09-02 at 12.47.34 AM.png)
-
-
+![Screen Shot 2022-03-31 at 1.01.58 AM](/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S01_Cloud-images/Screen Shot 2022-03-31 at 1.01.58 AM.png)
 
 
 
@@ -176,7 +174,7 @@ Leader in industry, #35 billion (47% of market in 2019)
   - Most services are region-scoped
   - How to choose? Factors
     - Compliance
-      - With data governance and legal requirements (data never levaves region without permission)
+      - With data governance and legal requirements (data never leaves region without permission)
     - Proximity
       - Reduced Latency
     - Available services
@@ -213,9 +211,7 @@ Region-Scoped
 
 ##### Shared Responsiblity Model Diagram
 
-![Screen Shot 2021-09-02 at 1.04.16 AM](/Users/sriharivishnu/Library/Application Support/typora-user-images/Screen Shot 2021-09-02 at 1.04.16 AM.png)
-
-
+![Screen Shot 2022-03-31 at 1.02.48 AM](/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S01_Cloud-images/Screen Shot 2022-03-31 at 1.02.48 AM.png)
 
 Customer = Responsibility for the security IN the cloud
 
