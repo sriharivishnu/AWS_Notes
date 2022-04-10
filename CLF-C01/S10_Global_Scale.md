@@ -14,6 +14,17 @@
   - Acceleration of uploads and downloads into S3
 - AWS Global Accelerator
   - Improve global application availablility and performance using the AWS network
+- AWS Outposts
+  - Deploy Racks in own data centers to extend AWS services
+
+- AWS WaveLength
+  - Use 5G networks to bring services to the edge
+  - Ultra-low latency applications
+
+- AWS Local Zones
+  - Bring AWS resources close to users
+  - latency-sensitive applications
+
 
 
 
@@ -93,3 +104,62 @@
 <img src="/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S10_Global_Scale-images/Screen Shot 2022-04-01 at 3.34.05 AM.png" alt="Screen Shot 2022-04-01 at 3.34.05 AM" style="zoom:30%;" />
 
 ![Screen Shot 2022-04-01 at 3.35.09 AM](/Users/sriharivishnu/Documents/Notes/AWS/CLF-C01/S10_Global_Scale-images/Screen Shot 2022-04-01 at 3.35.09 AM.png)
+
+
+
+**AWS Outposts**
+
+- **Hybrid Cloud**
+  - Keeps an on-premises infrastructure alongside a cloud infrastructure
+- Two ways of dealing IT systems
+  - One for AWS cloud, and one for on-premises infra
+- AWS Outposts
+  - Server racks that offers the same AWS infra, services, APIs & tools to build applications on-premises just like cloud
+  - AWS will setup and manage
+- You are responsible for the physical security of the Outposts rack
+- Benefits
+  - Low-latency access to on-premises systems
+  - Local data processing
+  - Data residency
+  - Easier migration from on-premises to the lcoud
+  - Fully managed
+  - Services: EC2, EBS, S3, EKS, ECS, RDS, EMR
+
+
+
+**AWS WaveLength**
+
+- Infrastructure deployments embedded within the telecommunications providers' datacetners
+- Brings AWS services to the edge of 5G networks
+- Ex. EC2, EBS, VPC
+- Low latency through 5G networks
+- No additional charges
+- Smart Cities, AR/VR, Real-time gaming
+
+
+
+**AWS Local Zones**
+
+- Places AWS compute, storage, database and other selected AWS services closer to end users to run latency-sensitive applications
+- Compatible with:
+  - EC2, RDS, ECS, EBS...
+- Ex: 
+  - Region: N. Virginia (us-east-1)
+  - Local Zones: Boston, Chicago, Dallas...
+
+
+
+**Applications Architecture**
+
+- Single Region, Single AZ
+- Single Region, Multi AZ
+  - High Availability
+- Multi Region, Active Passive
+  - 2 regions, each regions has 1+ AZ
+  - 1 region - application is active
+  - Other region is passive (only reads), and replicate data
+  - Read latency 
+- Multi Region, Active-Active
+  - Each EC2 instance has reads, and write capabilities
+  - Read Latency and Write latency are good
+- 
