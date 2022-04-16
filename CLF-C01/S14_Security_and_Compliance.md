@@ -177,7 +177,7 @@
 
 **GuardDuty**
 
-- Intelligent Thread discovery to protect AWS account
+- Intelligent Threat discovery to protect AWS account
 - Use ML algos, anomaly detection, 3rd party data
 - One click to enable (30 days trial), no need to install software
 - Input data

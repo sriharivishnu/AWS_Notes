@@ -61,7 +61,7 @@ Private Cloud
 
 Public Cloud
 
-- Cloud resourcs owned and operated by a third-party cloud service provider delivered over the Internet
+- Cloud resources owned and operated by a third-party cloud service provider delivered over the Internet
 - Six Advantages of Cloud Computing above
 
 
@@ -80,7 +80,7 @@ Hybrid Cloud
    - Users can provision resources and use them without human interaction from the service provider
 2. Broad network access
    - Resources available over the network and can be accessed by diverse client platforms
-3. Mult-tenancy and resource pooling
+3. Multi-tenancy and resource pooling
    - Multiple customers can share infrastructure and applications securely and privately
    - Multiple customers are services from same physical resources
 4. Rapid elasticity and scalability
@@ -224,4 +224,3 @@ Acceptable Use Policy
 - No illegal, harmful, offensive use or content
 - NO Security Violations
 - No abuse
-
