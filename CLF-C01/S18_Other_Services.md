@@ -45,5 +45,63 @@
 
 
 
+**Amazon Elastic Transcoder**
 
+- Used to convert media files stored in S3 into media files in the formats required
+
+
+
+**Device Farm**
+
+- Fully-managed service that tests web + mobile apps agains desktop browsers, real mobile devices, and tablets
+- Run tests concurrently on multiple devices (speed up execution)
+- Ability to configure device settings
+
+
+
+**AWS Backup**
+
+- Fully Managed service to centrally manage and automate backups across services
+- On-Demand + scheduled backups
+- Supports Point-in-time Recovery
+- Cross-Region + Cross-Account backup
+
+
+
+**Disaster Recovery**
+
+- Cheapest: Backup and Restore
+- Pilot Light
+  - Minimal setup of cloud 
+  - Smaller database + app servers
+- Warm Standby
+  - Full version of the app, but at minimum size
+- Multi-Site / Hot-Site
+  - Full version of the app at full size
+
+
+
+**AWS Elastic Disaster Recovery**
+
+- Quickly and easily recover your physical, virtual, and cloud-based servers into AWS
+- Protect most critical databases
+- Continuous block-level replication
+
+
+
+**AWS DataSync**
+
+- move large amount of data from on-premises to AWS
+- Synchronize to S3, EFS, FSx
+- Replication can be hourly, daily, weekly
+- Replication tasks are incremental after the first full load
+
+
+
+**Fault Injection Simulator**
+
+- Managed service for running fault injection experiments
+- Chaos Engineering - stressing and application by creating disruptive events, observing how system responds, implementing improvements
+- Helps uncover hidden bugs + performance bottlenecks
+- 
 
