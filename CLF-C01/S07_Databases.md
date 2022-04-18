@@ -154,6 +154,12 @@ DynamoDB Accelerator - DAX
 - Secure, highly scalable & highly available
 - DAX is only used for and is integrated with DynamoDB (while ElastiCache can be used for other databases)
 
+**DynamoDB - Global Tables**
+
+- Make a DynamoDB table accessible with low latency in multiple-regions
+- 2-way replication across regions
+- Could read/write in any region - Active-Active replication
+
 
 
 #### Redshift

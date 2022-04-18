@@ -49,7 +49,7 @@ Policies Structure
   - Effect (whether statement allows or denies) 
   - Principal (account/user/role to which this policy applied to)
   - Action: list of action sthis policy allows or denies
-  - Condition: conditions for when this policiy is in effect
+  - Condition: conditions for when this policy is in effect
 
 
 

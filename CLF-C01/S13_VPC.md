@@ -127,7 +127,7 @@
   - Establish a physical connection between on-premises and AWS
   - Connection is private, secure and fast
   - Goese over private network
-  - More expensive to set up, takes a moth to establish
+  - More expensive to set up, takes a month to establish
 
 <img src="S13_VPC-images/Screen Shot 2022-04-09 at 7.30.41 PM.png" alt="Screen Shot 2022-04-09 at 7.30.41 PM" style="zoom:50%;" />
 
